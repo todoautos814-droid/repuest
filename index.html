@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Importadora Celeste</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0">
+        <a href="index.html" class="navbar-brand ms-lg-5">
+            <h1 class="display-5 m-0 text-primary">Importadora <span class="text-secondary">Asociadas</span></h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="index.html" class="nav-item nav-link active">Inicio</a>
+                <a href="about.html" class="nav-item nav-link">Nosotros</a>
+                <a href="contact.html" class="nav-item nav-link">Contacto</a>                
+                <a href="testimonial.html" class="nav-item nav-link">Testimonios</a>
+                <a href="https://wa.me/+573202932963?text=Necesito Un Repuesto Para Mi Auto, ¿Me Puedes Asesorar?" target="_blank" class="nav-item nav-link nav-contact bg-secondary text-white px-5 ms-lg-5"><i class="bi bi-telephone-outbound me-2"></i>+57 3202932963</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container-boton">
+        <a href="https://wa.me/+573202932963?text=Necesito Un Repuesto Para Mi Auto, ¿Me Puedes Asesorar?" target="_blank">
+            <img class="boton" src="img/iconowha.png" alt="">
+        </a>
+    </div>
+    <style>
+    .container-boton{
+        background-color: #2e6329;
+        border: 1px solid #fff;
+        position: fixed;
+        z-index: 999;
+        border-radius: 50%;
+        bottom: 10px;
+        left: 20px;
+        padding: 20px;
+        transition: ease 0.3s;
+        animation: efecto 1.2s infinite;
+    }
+    
+    .container-boton:hover{
+        transform: scale(1.1);
+        transition: 0.3s;
+    }
+    
+    .boton{
+        width: 40px;
+        transition: ease 1s;
+    }
+    
+    @keyframes efecto{
+        0%{
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+        }
+        100%{
+            box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+        }
+    }
+    </style>
+    <!-- Navbar End -->
+
+    <br><br>
+
+    <!-- Carousel Start -->
+    <div class="container-fluid mb-3">
+        <div class="row px-xl-5">
+            <div class="col-lg-4">
+                <div class="product-offer mb-30" style="height: 200px;">
+                    <img class="img-fluid" src="img/offer-1.jpg" alt="">
+                    <div class="offer-text">
+                        <h6 class="text-white text-uppercase">Por Compras Mayores</h6>
+                        <h3 class="text-white mb-3">Adquiere Un Descuento</h3>
+                        <a href="https://wa.me/+573202932963?text=Necesito Un Repuesto Para Mi Auto, ¿Me Puedes Asesorar?" target="_blank" class="btn btn-primary">Comprar Ahora</a>
+                    </div>
+                </div>
+                <br>
+                <div class="product-offer mb-30" style="height: 200px; margin-bottom:15px;">
+                    <img class="img-fluid" src="img/offer-2.jpg" alt="">
+                    <div class="offer-text">
+                        <h6 class="text-white text-uppercase">Mira Las ofertas</h6>
+                        <h3 class="text-white mb-3">Que Te Podemos Ofrecer</h3>
+                        <a href="https://wa.me/+573202932963?text=Necesito Un Repuesto Para Mi Auto, ¿Me Puedes Asesorar?" target="_blank" class="btn btn-primary">Comprar Ahora</a>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="col-lg-8">
+                <div id="header-carousel" class="carousel slide carousel-fade mb-30 mb-lg-0" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#header-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#header-carousel" data-slide-to="1"></li>
+                        <li data-target="#header-carousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item position-relative active" style="height: 430px;">
+                            <img class="position-absolute w-100 h-100" src="img/carousel-1.jpg" style="object-fit: cover;">
+                            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                                <div class="p-3" style="max-width: 700px;">
+                                    <h1 class="display-4 text-white mb-3 animate__animated animate__fadeInDown">COTIZA LO QUE NECESITES PARA TU AUTO</h1>
+                                    <p class="mx-md-5 px-5 animate__animated animate__bounceIn">Variedad de repuestos con una calidad excelente</p>
+                                    <a class="btn btn-primary py-2 px-4 mt-3 animate__animated animate__fadeInUp" href="https://wa.me/+573202932963?text=Necesito Un Repuesto Para Mi Auto, ¿Me Puedes Asesorar?" target="_blank">Comprar Ahora </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item position-relative" style="height: 430px;">
+                            <img class="position-absolute w-100 h-100" src="img/carousel-1.png" style="object-fit: cover;">
+                            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                                <div class="p-3" style="max-width: 700px;">
+                                    <h1 class="display-4 text-white mb-3 animate__animated animate__fadeInDown">COTIZA LO QUE NECESITES PARA TU AUTO</h1>
+                                    <p class="mx-md-5 px-5 animate__animated animate__bounceIn">Variedad de repuestos con una calidad excelente</p>
+                                    <a class="btn btn-primary py-2 px-4 mt-3 animate__animated animate__fadeInUp" href="https://wa.me/+573202932963?text=Necesito Un Repuesto Para Mi Auto, ¿Me Puedes Asesorar?" target="_blank">Comprar Ahora </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item position-relative" style="height: 430px;">
+                            <img class="position-absolute w-100 h-100" src="img/carousel-1.png" style="object-fit: cover;">
+                            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                                <div class="p-3" style="max-width: 700px;">
+                                    <h1 class="display-4 text-white mb-3 animate__animated animate__fadeInDown">COTIZA LO QUE NECESITES PARA TU AUTO</h1>
+                                    <p class="mx-md-5 px-5 animate__animated animate__bounceIn">Variedad de repuestos con una calidad excelente</p>
+                                    <a class="btn btn-primary py-2 px-4 mt-3 animate__animated animate__fadeInUp" href="https://wa.me/+573202932963?text=Necesito Un Repuesto Para Mi Auto, ¿Me Puedes Asesorar?" target="_blank">Comprar Ahora </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>  
+    <!-- Carousel End --> 
+
+    <!-- Featured Start -->
+    <div class="container-fluid pt-5">
+        <div class="row px-xl-5 pb-3">
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="d-flex align-items-center bg-light wow fadeInUp" data-wow-delay="0.1s mb-4" style="padding: 30px;">
+                    <h1 class="fa fa-check text-dark m-0 mr-3"></h1>
+                    <h5 class="font-weight-semi-bold m-0"> Productos de calidad</h5>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="d-flex align-items-center bg-light wow fadeInUp" data-wow-delay="0.1s mb-4" style="padding: 30px;">
+                    <h1 class="fa fa-shipping-fast text-dark m-0 mr-2"></h1>
+                    <h5 class="font-weight-semi-bold m-0"> Envío gratis</h5>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="d-flex align-items-center bg-light wow fadeInUp" data-wow-delay="0.1s mb-4" style="padding: 30px;">
+                    <h1 class="fas fa-credit-card text-dark m-0 mr-3"></h1>
+                    <h5 class="font-weight-semi-bold m-0"> Diferentes medios de pago</h5>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="d-flex align-items-center bg-light wow fadeInUp" data-wow-delay="0.1s mb-4" style="padding: 30px;">
+                    <h1 class="fa fa-phone-volume text-dark m-0 mr-3"></h1>
+                    <h5 class="font-weight-semi-bold m-0"> Soporte 24/7</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Featured End -->
+
+    <!-- About Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.3s" src="img/img-banner.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="mb-4">
+                        <h5 class="text-primary text-uppercase" style="letter-spacing: 5px;">Nosotros</h5>
+                        <h1 class="display-5 mb-0">Importadora Celeste</h1>
+                    </div>
+                    <p class="mb-4">Somos #1 en Comercio de partes y piezas (autopartes) y accesorios (lujos) para vehiculos automotores, dedicada a cumplir todas las expectativas de nuestros clientes. Tenemos repuestos para casi todas las marcas, pero si no lo tenemos, lo buscamos por ti.</p>
+                    <div class="row g-3">
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
+                            <div class="bg-primary d-flex flex-column justify-content-center text-center border-bottom border-5 border-secondary rounded p-3" style="height: 200px;">
+                                <i class="fa fa-star fa-4x text-white mb-4"></i>
+                                <h4 class="text-white mb-0">15 años de experiencia</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <br>
+    <div class="container">
+        <div class="text-center mx-auto mb-5" style="max-width: 600px;">        
+            <h1 class="display-5 mb-0">Variedad De Repuestos</h1>
+        </div>  
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col wow zoomIn" data-wow-delay="0.6s">
+                <div class="card h-100">
+                    <img src="img/baterias.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Baterias</h5>
+                        <a href="marcas.html" class="btn btn-primary">Comprar Ahora</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col wow zoomIn" data-wow-delay="0.6s">
+                <div class="card h-100">
+                    <img src="img/carroceria.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Carroceria</h5>
+                        <a href="marcas.html" class="btn btn-primary">Comprar Ahora</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col wow zoomIn" data-wow-delay="0.6s">
+                <div class="card h-100">
+                    <img src="img/direccion.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Dirección</h5>
+                        <a href="marcas.html" class="btn btn-primary">Comprar Ahora</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col wow zoomIn" data-wow-delay="0.6s">
+                <div class="card h-100">
+                    <img src="img/caja.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Caja</h5>
+                        <a href="marcas.html" class="btn btn-primary">Comprar Ahora</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col wow zoomIn" data-wow-delay="0.6s">
+                <div class="card h-100">
+                    <img src="img/frenos.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Frenos</h5>
+                        <a href="marcas.html" class="btn btn-primary">Comprar Ahora</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col wow zoomIn" data-wow-delay="0.6s">
+                <div class="card h-100">
+                    <img src="img/motorexterno.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Motor Externo</h5>
+                        <a href="marcas.html" class="btn btn-primary">Comprar Ahora</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col wow zoomIn" data-wow-delay="0.6s">
+                <div class="card h-100">
+                    <img src="img/motorinterno.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Motor Interno</h5>
+                        <a href="marcas.html" class="btn btn-primary">Comprar Ahora</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col wow zoomIn" data-wow-delay="0.6s">
+                <div class="card h-100">
+                    <img src="img/parteselectricas.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Partes Electricas</h5>
+                        <a href="marcas.html" class="btn btn-primary">Comprar Ahora</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col wow zoomIn" data-wow-delay="0.6s">
+                <div class="card h-100">
+                    <img src="img/sensores.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Sensores</h5>
+                        <a href="marcas.html" class="btn btn-primary">Comprar Ahora</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col wow zoomIn" data-wow-delay="0.6s">
+                <div class="card h-100">
+                    <img src="img/suspension.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Suspensión</h5>
+                        <a href="marcas.html" class="btn btn-primary">Comprar Ahora</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col wow zoomIn" data-wow-delay="0.6s">
+                <div class="card h-100">
+                    <img src="img/refrigeracion.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Refrigeración</h5>
+                        <a href="marcas.html" class="btn btn-primary">Comprar Ahora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid pt-5 pb-3">  
+        <div class="text-center mx-auto mb-5" style="max-width: 600px;">
+            <h5 class="text-primary text-uppercase" style="letter-spacing: 5px;">Marcas Que Manejamos Y Una</h5>
+            <h1 class="display-5 mb-0">Variedad De Repuestos</h1>
+        </div>         
+        <div class="row px-xl-5">
+            <div class="col-md-6">                
+                <a href="https://wa.me/+573202932963?text=Necesito Un Repuesto Para Mi Auto, ¿Me Puedes Asesorar?" target="_blank"><img class="img-fluid" src="img/banner1.jpg" alt="" style="width:100% ; height: 100%;"></a>                                  
+            </div>
+            
+            <div style="margin-top:10px;" class="col-md-6">
+                <a href="https://wa.me/+573202932963?text=Necesito Un Repuesto Para Mi Auto, ¿Me Puedes Asesorar?" target="_blank"><img class="img-fluid" src="img/banner2.jpg" alt="" style="width:100% ; height: 100%;"></a>
+            </div>          
+        </div>
+    </div>
+    <br>
+
+    <!-- Vendor Start -->
+    <div class="container-fluid py-5">
+        <div class="text-center mx-auto mb-5" style="max-width: 600px;">
+           <h1 class="display-5 mb-0">Aliados</h1>
+        </div> 
+        <div class="row px-xl-5">
+            <div class="col">
+                <div class="owl-carousel vendor-carousel">
+                    <div class="bg-light p-4">
+                        <img src="img/22.png" alt="">
+                    </div>
+                    <div class="bg-light p-4">
+                        <img src="img/23.png" alt="">
+                    </div>
+                    <div class="bg-light p-4">
+                        <img src="img/24.png" alt="">
+                    </div>
+                    <div class="bg-light p-4">
+                        <img src="img/25.png" alt="">
+                    </div>
+                    <div class="bg-light p-4">
+                        <img src="img/26.png" alt="">
+                    </div>
+                    <div class="bg-light p-4">
+                        <img src="img/27.png" alt="">
+                    </div>
+                    <div class="bg-light p-4">
+                        <img src="img/28.png" alt="">
+                    </div>
+                    <div class="bg-light p-4">
+                        <img src="img/29.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Vendor End -->   
+
+    <!-- Offer Start -->
+    <div class="container-fluid pt-5 pb-3">
+        <div class="row px-xl-5">
+            <div class="col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                <div class="product-offer mb-30" style="height: 300px;">
+                    <img class="img-fluid" src="img/cajasautos.jpg" alt="">
+                    <div class="offer-text">
+                        <h6 class="text-white text-uppercase">Por Compras Mayores</h6>
+                        <h3 class="text-white mb-3">Recibes Un Descuento Y Envio Gratis</h3>
+                        <a href="https://wa.me/+573202932963?text=Necesito Un Repuesto Para Mi Auto, ¿Me Puedes Asesorar?" target="_blank" class="btn btn-primary">Deja Tu mensaje</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                <div class="product-offer mb-30" style="height: 300px;">
+                    <img class="img-fluid" src="img/bannerrepuestos.jpg" alt="">
+                    <div class="offer-text">
+                        <h6 class="text-white text-uppercase">Asesores especializados</h6>
+                        <h3 class="text-white mb-3">Para reparar tu Auto</h3>
+                        <a href="https://wa.me/+573202932963?text=Necesito Un Repuesto Para Mi Auto, ¿Me Puedes Asesorar?" target="_blank" class="btn btn-primary">Deja Tu mensaje</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <!-- Offer End -->
+
+    <div class="text-center mx-auto mb-5" style="max-width: 600px;">
+       <h1 class="display-5 mb-0">Testigos</h1>
+    </div> 
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/testigo1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Jose Aldana</h5>
+                        <p class="card-text">Todos los productos son de muy buena calidad, gracias por su servicio.</p>
+                        <div class="d-flex align-items-center justify-content-center mb-1">
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small>(5)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/testigo2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ricardo Pineda</h5>
+                        <p class="card-text">Distribuidora muy completa, gran variedad de repuestos</p>
+                        <div class="d-flex align-items-center justify-content-center mb-1">
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small>(5)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/testigo3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Clinica Automotriz</h5>
+                        <p class="card-text">Buen servicio al cliente, y una alta prohabilidad de encontrar tu repuesto</p>
+                        <div class="d-flex align-items-center justify-content-center mb-1">
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small>(5)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/testigo4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Jessica Monroy</h5>
+                        <p class="card-text">Genial! Mas empresas así, variedad de productos y de calidad muy buena</p>
+                        <div class="d-flex align-items-center justify-content-center mb-1">
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small>(5)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>     
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light mt-5 py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container pt-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Links</h3>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-light mb-2" href="index.html"><i class="bi bi-arrow-right text-primary me-2"></i>Inicio</a>
+                        <a class="text-light mb-2" href="about.html"><i class="bi bi-arrow-right text-primary me-2"></i>Nosotros</a>
+                        <a class="text-light mb-2" href="contact.html"><i class="bi bi-arrow-right text-primary me-2"></i>Contacto</a>
+                        <a class="text-light mb-2" href="testimonial.html"><i class="bi bi-arrow-right text-primary me-2"></i>Testimonios</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Marcas Populares</h3>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Chevrolet </a>
+                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Renault </a>
+                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Kia</a>
+                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Toyota</a>
+                        <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Nissan</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Ubicación</h3>
+                    <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>Car 50 35 13, Medellin, Antioquia</p>
+                    <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>importador_aceleste@outlook.com</p>
+                    <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+57 3202932963</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <img src="img/aso.jpg" width="152" alt="">
+                </div>
+            </div>
+        </div>
+    </div>   
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-secondary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
